@@ -1,14 +1,14 @@
 import React, { Component } from 'react'; 
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, BrowserRouter, Routes, Route } from 'react-router-dom';
 import Audio from './audio.js';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes> 
         <Route path="/" element={<Audio />}/>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
