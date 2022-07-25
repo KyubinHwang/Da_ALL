@@ -6,7 +6,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes> 
-        <Route path="/audio" element={<Audio />}/>
+        <Route path="/" element={<Audio />}/>
       </Routes>
     </BrowserRouter>
   );
