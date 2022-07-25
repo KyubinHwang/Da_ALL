@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Da_ALL/static/css/main.07da9e27.css",
+    "main.js": "/Da_ALL/static/js/main.10f406c5.js",
+    "static/media/채수원3.m4a": "/Da_ALL/static/media/채수원3.c013dab1b68f0ac3489d.m4a",
+    "static/media/DAALL_logo.jpeg": "/Da_ALL/static/media/DAALL_logo.1b16401597abdf0ce4ea.jpeg",
+    "index.html": "/Da_ALL/index.html",
+    "main.07da9e27.css.map": "/Da_ALL/static/css/main.07da9e27.css.map",
+    "main.10f406c5.js.map": "/Da_ALL/static/js/main.10f406c5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.07da9e27.css",
+    "static/js/main.10f406c5.js"
+  ]
+}
