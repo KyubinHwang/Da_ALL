@@ -8,7 +8,7 @@ function Audio() {
   return (
     <div className={styled.screen}>
         <div>
-            <img className={styled.logo} src={logo}/>
+            {/* <img className={styled.logo} src={logo}/> */}
             <p>제목 : 당신께 쓰고픈 글</p>
             <p>작가 : 채수원</p>
             {/* <ReactAudioPlayer
