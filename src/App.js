@@ -4,7 +4,7 @@ import Audio from './audio.js';
 
 function App() {
   return (
-    <HashRouter>
+    <HashRouter basename={process.env.PUBLIC_URL}>
       <Routes> 
         <Route path="/" element={<Audio />}/>
       </Routes>
