@@ -11,11 +11,11 @@ function Audio() {
             <img className={styled.logo} src={logo}/>
             <p>제목 : 당신께 쓰고픈 글</p>
             <p>작가 : 채수원</p>
-            <ReactAudioPlayer
+            {/* <ReactAudioPlayer
                 src={sound}
                 autoPlay
                 controls
-            />
+            /> */}
             <div>
                 <p>여기다가</p>
                 <p>시 행 연에 따라서</p>
