@@ -2,9 +2,12 @@
     background-color: #FDF9E0;
     text-align: center;
     height: 100vh;
+    max-height: 100vh;
     display: grid;
     place-items: center;
+    overflow: scroll;
 }
 .logo{
-    max-width: 20vw;
+    width: 50vw;
+    max-width: 300px;
 }

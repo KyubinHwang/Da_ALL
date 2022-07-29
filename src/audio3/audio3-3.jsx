@@ -1,10 +1,10 @@
 import React from 'react'; 
 import styled from './Audio.module.css'
 import ReactAudioPlayer from 'react-audio-player';
-import sound from './audio/채수원3.m4a';
+import sound from './audio/채수원(당신께쓰고픈글).m4a';
 import logo from './img/DAALL_logo.jpeg';
 
-function Audio3_1_1() {
+function Audio3_3() {
   return (
     <div className={styled.screen}>
         <div>
@@ -14,12 +14,9 @@ function Audio3_1_1() {
                 src={sound}
                 autoPlay
                 controls
-                style={{
-                  
-                }}
             />
-            <p>제목 : 그대</p>
-            <p>작가 : 정다운</p>
+            <p>제목 : 당신께 쓰고픈 글</p>
+            <p>작가 : 채수원</p>
             <div>
                 <p>여기다가</p>
                 <p>시 행 연에 따라서</p>
@@ -31,4 +28,4 @@ function Audio3_1_1() {
   );
 }
 
-export default Audio3_1_1;
+export default Audio3_3;
