@@ -8,7 +8,7 @@ function Audio1_1() {
   return (
     <div className={styled.screen}>
         <div>
-            <img className={styled.logo} src={logo}/>
+            <img className={styled.logo} src={logo} alt="img"/>
             <br/>
             <ReactAudioPlayer
                 src={sound}
@@ -17,11 +17,17 @@ function Audio1_1() {
             />
             <p>제목 : 지금이 청춘</p>
             <p>작가 : 정다운</p>
+            <br/>
             <div>
-                <p>여기다가</p>
-                <p>시 행 연에 따라서</p>
-                <p>텍스트 작성해서</p>
-                <p>배치하기??</p>
+                <p>이십대 이전을 번뇌와 회의로</p>
+                <p>삼십대 이후는 살아내느라 흘려보냈다</p>
+                <br/>
+                <p>일흔이 훌쩍 넘은 지금</p>
+                <br/>
+                <p>이름모를 풀꽃 하나에 가슴 설레이고</p>
+                <p>파아란 하늘 조각 구름에 마냥 벅차다</p>
+                <br/>
+                <p>아- 난 지금이 청춘인가 보다</p>
             </div>
         </div>
     </div>

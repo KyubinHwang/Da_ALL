@@ -8,7 +8,7 @@ function Audio3_1_1() {
   return (
     <div className={styled.screen}>
         <div>
-            <img className={styled.logo} src={logo}/>
+            <img className={styled.logo} src={logo} alt="img"/>
             <br/>
             <ReactAudioPlayer
                 src={sound}
@@ -21,10 +21,18 @@ function Audio3_1_1() {
             <p>제목 : 그대</p>
             <p>작가 : 정다운</p>
             <div>
-                <p>여기다가</p>
-                <p>시 행 연에 따라서</p>
-                <p>텍스트 작성해서</p>
-                <p>배치하기??</p>
+                <p>나를 온전히
+                  이해해주고
+                  보듬어 줄
+                  누군가를
+                  기다렸는데
+
+                  그대
+
+                  세상천지
+                  어디에
+                  계신지
+                </p>
             </div>
         </div>
     </div>

@@ -8,7 +8,7 @@ function Audio2_1() {
   return (
     <div className={styled.screen}>
         <div>
-            <img className={styled.logo} src={logo}/>
+            <img className={styled.logo} src={logo} alt="img"/>
             <br/>
             <ReactAudioPlayer
                 src={sound}
@@ -18,10 +18,18 @@ function Audio2_1() {
             <p>제목 : 어머니</p>
             <p>작가 : 정다운</p>
             <div>
-                <p>여기다가</p>
-                <p>시 행 연에 따라서</p>
-                <p>텍스트 작성해서</p>
-                <p>배치하기??</p>
+                <p>마흔 하고도 둘 늦은 나이에 날 낳으신 어머니
+                  가세마저 기울어 산후조리도 변변히 못하시고
+                  어린 아들 병치레에 편할 날이 없으셨다
+
+                  젊어 낳은 자식들에겐 엄격하기만 했던 어머니
+                  형누나들에게 못다준 사랑 몰아 내게 주시고
+                  막내 아들 뒷바라지로 당신은 챙길 틈이 없으셨다
+
+                  내 나이 마흔 하고도 일곱 어느덧 낼모래가 쉰인데
+                  울 어머니 어디로 가셨나 천지에 자취가 없네
+                  오늘도 그 모습 떠올리며 목메어 불러본다 어머니
+                </p>
             </div>
         </div>
     </div>
