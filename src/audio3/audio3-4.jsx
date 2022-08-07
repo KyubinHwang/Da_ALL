@@ -4,7 +4,7 @@ import ReactAudioPlayer from 'react-audio-player';
 import sound from './audio/원복순(갈대노인).m4a';
 import logo from './img/DAALL_logo.jpeg';
 
-function Audio3_4() {
+function Audio3Bok() {
   return (
     <div className={styled.screen}>
         <div>
@@ -15,32 +15,33 @@ function Audio3_4() {
                 autoPlay
                 controls
             />
-            <p>제목 : 갈대 노인</p>
-            <p>작가 : 원복순</p>
             <div>
-                <p>꽃이 핀다 예쁜 꽃 들이 피었다
-                  내 머리에도 하얀 갈대 꽃이 피었다
-                  갈대 꽃은 석양에 더 빛나지
-
-                  젊어서는 하히힐 굽이 높아지고
-                  늙어서는 지팡이 길이가 짧아진다
-                  이런줄 알았으면 힘을 조금 남겨 둘것을
-
-                  아침에 피었던 예쁜 꽃도
-                  저녁이 되면 고개를 떨군다
-                  지려나 보다
-
-                  빛나던 청춘도 쉬임없이 달려
-                  어느새 노인 역에 도착
-                  모두 평화로워 보인다
-
-                  갈대 할머니
-                  오늘도 해피데이
-                </p>
+              <p>제목 : 갈대 노인</p>
+              <p>작가 : 원복순</p>
+            </div>
+            <div>
+                <p>꽃이 핀다 예쁜 꽃 들이 피었다</p>
+                <p>내 머리에도 하얀 갈대 꽃이 피었다</p>
+                <p>갈대 꽃은 석양에 더 빛나지</p>
+                <br/>
+                <p>젊어서는 하히힐 굽이 높아지고</p>
+                <p>늙어서는 지팡이 길이가 짧아진다</p>
+                <p>이런줄 알았으면 힘을 조금 남겨 둘것을</p>
+                <br/>
+                <p>아침에 피었던 예쁜 꽃도</p>
+                <p>저녁이 되면 고개를 떨군다</p>
+                <p>지려나 보다</p>
+                <br/>
+                <p>빛나던 청춘도 쉬임없이 달려</p>
+                <p>어느새 노인 역에 도착</p>
+                <p>모두 평화로워 보인다</p>
+                <br/>
+                <p>갈대 할머니</p>
+                <p>오늘도 해피데이</p>
             </div>
         </div>
     </div>
   );
 }
 
-export default Audio3_4;
+export default Audio3Bok;

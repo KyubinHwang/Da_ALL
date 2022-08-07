@@ -4,7 +4,7 @@ import ReactAudioPlayer from 'react-audio-player';
 import sound from './audio/채수원3.m4a';
 import logo from './img/DAALL_logo.jpeg';
 
-function Audio1_1() {
+function Audio1Jeong() {
   return (
     <div className={styled.screen}>
         <div>
@@ -15,9 +15,10 @@ function Audio1_1() {
                 autoPlay
                 controls
             />
-            <p>제목 : 지금이 청춘</p>
-            <p>작가 : 정다운</p>
-            <br/>
+            <div>
+              <p>제목 : 지금이 청춘</p>
+              <p>작가 : 정다운</p>
+            </div>
             <div>
                 <p>이십대 이전을 번뇌와 회의로</p>
                 <p>삼십대 이후는 살아내느라 흘려보냈다</p>
@@ -34,4 +35,4 @@ function Audio1_1() {
   );
 }
 
-export default Audio1_1;
+export default Audio1Jeong;
