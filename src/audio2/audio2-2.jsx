@@ -21,7 +21,7 @@ function Audio2Myeong() {
                 <p style={{fontSize: '20px', textAlign: 'right'}}>원명화</p>
               </div>
               <div style={{textAlign: 'left'}}>
-                  <p>여기 몇 번의 눈 비바람 세월이 지나가고</p>
+                  <p>몇 번의 눈 비바람 세월이 지나가고</p>
                   <p>지금은 행복한 독거라는 노인으로 살고있다</p>
                   <p>늘 명절 잊지않고 찾아주는 자식들</p>
                   <p>생일 어버이 날이면 찾아주는 조촐한 가족파티</p>
