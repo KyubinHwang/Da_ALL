@@ -1,5 +1,5 @@
 import React  from 'react'; 
-import { HashRouter, Routes, Route  } from 'react-router-dom';
+import {  Routes, Route, BrowserRouter  } from 'react-router-dom';
 import Audio1Jeong from './audio1/audio1-1.jsx';
 import Audio1Myeong from './audio1/audio1-2.jsx';
 import Audio1Chae from './audio1/audio1-3.jsx';
@@ -19,7 +19,7 @@ import Audio3Kim from './audio3/audio3-5.jsx';
 
 function App() {
   return (
-    <HashRouter basename={process.env.PUBLIC_URL}>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes> 
         <Route path="/" element={<Audio1Jeong />}/>
         <Route path="/audio1-1" element={<Audio1Jeong />}/>
@@ -39,7 +39,7 @@ function App() {
         <Route path="/audio3-4" element={<Audio3Bok />}/>
         <Route path="/audio3-5" element={<Audio3Kim />}/>
       </Routes>
-    </HashRouter>
+    </BrowserRouter>
   );
 }
 

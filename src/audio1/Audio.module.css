@@ -7,7 +7,21 @@
     place-items: center;
     overflow: scroll;
 }
+
 .logo{
     width: 50vw;
     max-width: 300px;
+}
+
+.body{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 3px dotted #FFE74F;
+    height: 55vh;
+    overflow: scroll;
+}
+
+.headerBox{
+    font-weight: bold;
 }

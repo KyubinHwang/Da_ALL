@@ -18,22 +18,24 @@ function Audio3Jenog1() {
                   
                 }}
             />
-            <div>
-              <p>제목 : 그대</p>
-              <p>작가 : 정다운</p>
-            </div>
-            <div>
-                <p>나를 온전히</p>
-                <p>이해해주고</p>
-                <p>보듬어 줄</p>
-                <p>누군가를</p>
-                <p>기다렸는데</p>
-                <br/>
-                <p>그대</p>
-                <br/>
-                <p>세상천지</p>
-                <p>어디에</p>
-                <p>계신지</p>
+            <div className={styled.body}>
+              <div className={styled.headerBox}>
+                <p style={{fontSize: '25px'}}>그대</p>
+                <p style={{fontSize: '20px', textAlign: 'right'}}>정다운</p>
+              </div>
+              <div style={{textAlign: 'left'}}>
+                  <p>나를 온전히</p>
+                  <p>이해해주고</p>
+                  <p>보듬어 줄</p>
+                  <p>누군가를</p>
+                  <p>기다렸는데</p>
+                  <br/>
+                  <p>그대</p>
+                  <br/>
+                  <p>세상천지</p>
+                  <p>어디에</p>
+                  <p>계신지</p>
+              </div>
             </div>
         </div>
     </div>
