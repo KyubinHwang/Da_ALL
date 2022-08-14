@@ -1,0 +1,92 @@
+.mainscreen{
+    background-color: #FDF9E0;
+    text-align: center;
+    height: 100vh;
+    max-height: 100vh;
+    overflow: scroll;
+    font-family: "MaruBuri-Regular";
+    display: grid;
+    place-content: center;
+}
+.header{
+    position: absolute;
+    width: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    justify-content: center;
+}
+.logo{
+    width: 50vw;
+    max-width: 300px;
+}
+.scrollDiv{
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+.contentScreen{
+    background-color: #FDF9E0;
+    text-align: center;
+    font-family: "MaruBuri-Regular";
+    display: grid;
+    place-content: center;
+}
+.bubbleLeft {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 85%;
+    padding: 10px;
+	position: relative;
+	background: #efaf25;
+	border-radius: .4em;
+    text-align: left;
+}
+.bubbleLeft:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 0.938em solid transparent;
+	border-right-color: #efaf25;
+	border-left: 0;
+	border-top: 0;
+	margin-top: -0.469em;
+	margin-left: -0.937em;
+}
+.bubbleRight {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 85%;
+    padding: 10px;
+    position: relative;
+	background: #efaf25;
+	border-radius: .4em;
+    text-align: left;
+}
+.bubbleRight:after {
+	content: '';
+	position: absolute;
+	right: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 0.938em solid transparent;
+	border-left-color: #efaf25;
+	border-right: 0;
+	border-top: 0;
+	margin-top: -0.469em;
+	margin-right: -0.937em;
+}
+
+.titleFont {
+    font-size: 20px;
+}
+.goAudio{
+    display: flex;
+    justify-content: space-around;
+}

@@ -1,5 +1,7 @@
 import React  from 'react'; 
 import {  Routes, Route, BrowserRouter  } from 'react-router-dom';
+import './App.module.css';
+import Main from './main';
 import Audio1Jeong from './audio1/audio1-1.jsx';
 import Audio1Myeong from './audio1/audio1-2.jsx';
 import Audio1Chae from './audio1/audio1-3.jsx';
@@ -21,7 +23,7 @@ function App() {
   return (
     <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes> 
-        <Route path="/" element={<Audio1Jeong />}/>
+        <Route path="/" element={<Main />}/>
         <Route path="/audio1-1" element={<Audio1Jeong />}/>
         <Route path="/audio1-2" element={<Audio1Myeong />}/>
         <Route path="/audio1-3" element={<Audio1Chae />}/>

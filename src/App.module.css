@@ -1,3 +1,23 @@
+@font-face {
+  font-family: 'MaruBuri-Bold';
+  src: url('./font/MaruBuri-Bold.otf');
+}
+@font-face {
+  font-family: "MaruBuri-ExtraLight";
+  src: url("./font/MaruBuri-ExtraLight.otf");
+}
+@font-face {
+  font-family: "MaruBuri-Light";
+  src: url("./font/MaruBuri-Light.otf");
+}
+@font-face {
+  font-family: "MaruBuri-Regular";
+  src: url("./font/MaruBuri-Regular.otf");
+}
+@font-face {
+  font-family: "MaruBuri-SemiBold";
+  src: url("./font/MaruBuri-SemiBold.otf");
+}
 .screen{
   background-color: #FDF9E0;
   text-align: center;
