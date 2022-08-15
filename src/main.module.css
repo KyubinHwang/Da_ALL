@@ -1,3 +1,6 @@
+p {
+    word-break: normal;
+}
 .mainscreen{
     background-color: #FDF9E0;
     text-align: center;
@@ -33,16 +36,18 @@
     font-family: "MaruBuri-Regular";
     display: grid;
     place-content: center;
+    
 }
 .bubbleLeft {
     margin-top: 20px;
     margin-left: 20px;
-    width: 85%;
-    padding: 10px;
+    margin-right: 20px;
+    padding: 15px;
 	position: relative;
 	background: #efaf25;
 	border-radius: .4em;
     text-align: left;
+    font-size: 12px;
 }
 .bubbleLeft:after {
 	content: '';
@@ -61,12 +66,13 @@
 .bubbleRight {
     margin-top: 20px;
     margin-left: 20px;
-    width: 85%;
-    padding: 10px;
+    margin-right: 20px;
+    padding: 15px;
     position: relative;
 	background: #efaf25;
 	border-radius: .4em;
     text-align: left;
+    font-size: 12px;
 }
 .bubbleRight:after {
 	content: '';
@@ -89,4 +95,7 @@
 .goAudio{
     display: flex;
     justify-content: space-around;
+}
+.poemList{
+    font-size: 12px;
 }
