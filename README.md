@@ -10,6 +10,10 @@
 <img src="https://user-images.githubusercontent.com/70309113/185742184-907643a5-a9f1-4d08-95f1-35c88eab1e6d.jpeg"  width="250" /> <img src="https://user-images.githubusercontent.com/70309113/185742187-724d340d-b853-4397-a9f3-62ba030f5fce.jpeg"  width="250" /> <img src="https://user-images.githubusercontent.com/70309113/185742195-ee6b2ed1-f74e-411d-a332-3082088f5d14.jpeg"  width="250" />
 </p>
 
+📌 instagram : @daall_official__
+
+📌 Web Site : https://daall.netlify.app/
+
 ## 🌈 Background
 ### PainPoint
 #### 급속한 고령화 진행
@@ -59,8 +63,19 @@
 
 ## 🌈 Features
 ### 주요 기능
+- 메인 화면
+  - Da_ALL 안내 content
+  - parrallax 스크롤 적용
+
+- 오디오 재생 화면
+  - 각 시니어 작가 별 시 작품과 오디오 재생 바
+  - react-audio-player 사용
+  - 모바일 환경에 맞는 레이아웃
 
 ### 사용 기술
-- 
+- HTML, Css, JavaScript, React
+- deploy : netlify
 
 ## 🌈 UI
+<img width="305" alt="스크린샷 2022-08-20 오후 7 51 05" src="https://user-images.githubusercontent.com/70309113/185742651-cb8d27eb-7ef5-499a-a7e9-2a7c90dfb20a.png"> <img width="305" alt="스크린샷 2022-08-20 오후 7 51 24" src="https://user-images.githubusercontent.com/70309113/185742648-70c400e4-b803-411f-9978-7a0418f46117.png">
+
