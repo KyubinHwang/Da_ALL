@@ -1,7 +1,7 @@
 import React from 'react'; 
 import styled from './Audio.module.css'
 import ReactAudioPlayer from 'react-audio-player';
-import sound from './audio/채수원(당신께쓰고픈글).m4a';
+import sound from './audio/채수원3.m4a';
 import logo from './img/DAALL_logo.jpeg';
 
 function Audio3Kim() {

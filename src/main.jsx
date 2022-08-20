@@ -74,117 +74,129 @@ function Main(){
                 </div>
                 <div style={{marginTop:'150px', marginBottom : '100px' , width: '85vw'}}>
                     <p className={style.titleFont}>시를 직접 들어보세요!!</p>
-                    <Slider dots={true} slidesToShow={1} className={style.slick_list}>
+                    <Slider dots={true} slidesToShow={1}>
                         <div className={style.card}>
                             <p style={{fontWeight : 'bold', color : 'white'}}>#1 정다운</p>
-                            <Link to="/audio1-1">
+                            <Link to="/audio1Jeong">
                                 <button className={style.tag}>
                                     지금이 청춘
                                 </button>
                             </Link>
-                            <br/>
-                            <Link to="/audio2-1">
+                            
+                            <Link to="/audio2Jeong">
                                 <button className={style.tag}>
                                     어머니
                                 </button>
                             </Link>
-                            <br/>
-                            <Link to="/audio3-1-1">
+                            
+                            <Link to="/audio3Jeong">
                                 <button className={style.tag}>
                                     그대
                                 </button>
                             </Link>
-                            <br/>
-                            <Link to="/audio3-1-1">
+                            
+                            <Link to="/audio4Jeong">
                                 <button className={style.tag}>
                                     멋진 나
                                 </button>
                             </Link>
-                            <br/>
+                            
                         </div>
                         <div className={style.card}>
                             <p style={{fontWeight : 'bold', color : 'white'}}>#2 원명화</p>
-                            <Link to="/audio1-2">
+                            <Link to="/audio1Myeong">
                                 <button className={style.tag}>
                                     스물 아홉에 끝난 청춘
                                 </button>
                             </Link>
-                            <br/>
-                            <Link to="/audio2-2">
+                            
+                            <Link to="/audio2Myeong">
                                 <button className={style.tag}>
                                     할미꽃 삶
                                 </button>
                             </Link>
-                            <br/>
-                            <Link to="/audio3-2">
+                            
+                            <Link to="/audio3Myeong">
                                 <button className={style.tag}>
                                     풋사랑
                                 </button>
                             </Link>
-                            <br/>
+                            
                         </div>
                         <div className={style.card}>
                             <p style={{fontWeight : 'bold', color : 'white'}}>#3 채수원</p>
-                            <Link to="/audio1-3">
+                            <Link to="/audio1Chae">
                                 <button className={style.tag}>
                                     데이타 복구도 된다는데
                                 </button>
                             </Link>
-                            <br/>
-                            <Link to="/audio2-3">
+                            
+                            <Link to="/audio2Chae">
                                 <button className={style.tag}>
                                     가족
                                 </button>
                             </Link>
-                            <br/>
-                            <Link to="/audio3-3">
+                            
+                            <Link to="/audio3Chae">
                                 <button className={style.tag}>
-                                    당신께 쓰고픈 글랑
+                                    당신께 쓰고픈 글
                                 </button>
                             </Link>
-                            <br/>
+                            
                         </div>
                         <div className={style.card}>
                             <p style={{fontWeight : 'bold', color : 'white'}}>#4 원복순</p>
-                            <Link to="/audio1-4">
+                            <Link to="/audio1Bok">
                                 <button className={style.tag}>
                                     청춘은 도전한다
                                 </button>
                             </Link>
-                            <br/>
-                            <Link to="/audio2-4">
+                            
+                            <Link to="/audio2Bok">
                                 <button className={style.tag}>
                                     새들의 합창
                                 </button>
                             </Link>
-                            <br/>
-                            <Link to="/audio3-4">
+                            
+                            <Link to="/audio3Bok">
                                 <button className={style.tag}>
                                     갈대 노인
                                 </button>
                             </Link>
-                            <br/>
-                        </div>
-                        <div className={style.card}>
-                            <p style={{fontWeight : 'bold', color : 'white'}}>#5 김보경</p>
-                            <Link to="/audio1-5">
-                                <button className={style.tag}>
-                                    청춘
-                                </button>
-                            </Link>
-                            <br/>
-                            <Link to="/audio2-5">
-                                <button className={style.tag}>
-                                    어머니
-                                </button>
-                            </Link>
-                            <br/>
-                            <Link to="/audio3-5">
+                            
+                            <Link to="/audio4Bok">
                                 <button className={style.tag}>
                                     당신
                                 </button>
                             </Link>
-                            <br/>
+                            
+                            <Link to="/audio5Bok">
+                                <button className={style.tag}>
+                                    홀로 가족
+                                </button>
+                            </Link>
+                            
+                        </div>
+                        <div className={style.card}>
+                            <p style={{fontWeight : 'bold', color : 'white'}}>#5 김보경</p>
+                            <Link to="/audio1Kim">
+                                <button className={style.tag}>
+                                    청춘
+                                </button>
+                            </Link>
+                            
+                            <Link to="/audio2Kim">
+                                <button className={style.tag}>
+                                    어머니
+                                </button>
+                            </Link>
+                            
+                            <Link to="/audio3Kim">
+                                <button className={style.tag}>
+                                    당신
+                                </button>
+                            </Link>
+                            
                         </div>
                     </Slider>
                     <p style={{marginTop:'100px'}}>시니어 작가분들의 시들을 클릭하고<br/>
@@ -199,7 +211,6 @@ function Main(){
                         다올에 대한 다양한 소식을 확인해주세요!!</p>
                         <button className={style.tag} onClick={linkInsta}>🔥 소식 확인하러 가기 🔥</button>
                 </div>
-                
             </div>
             <div className={style.endDiv}>
                 <div style={{display: 'flex', justifyContent :'center'}}>

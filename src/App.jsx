@@ -2,44 +2,56 @@ import React  from 'react';
 import {  Routes, Route, BrowserRouter  } from 'react-router-dom';
 import './App.module.css';
 import Main from './main';
-import Audio1Jeong from './audio1/audio1-1.jsx';
-import Audio1Myeong from './audio1/audio1-2.jsx';
-import Audio1Chae from './audio1/audio1-3.jsx';
-import Audio1Bok from './audio1/audio1-4.jsx';
-import Audio1Kim from './audio1/audio1-5.jsx';
-import Audio2Jeong from './audio2/audio2-1.jsx';
-import Audio2Myeong from './audio2/audio2-2.jsx';
-import Audio2Chae from './audio2/audio2-3.jsx';
-import Audio2Bok from './audio2/audio2-4.jsx';
-import Audio2Kim from './audio2/audio2-5.jsx';
-import Audio3Jenog1 from './audio3/audio3-1-1.jsx';
-import Audio3Jeong2 from './audio3/audio3-1-2.jsx';
-import Audio3Myeong from './audio3/audio3-2.jsx';
-import Audio3Chae from './audio3/audio3-3.jsx';
-import Audio3Bok from './audio3/audio3-4.jsx';
-import Audio3Kim from './audio3/audio3-5.jsx';
+import Audio1Jeong from './jeong/audio1Jeong';
+import Audio2Jeong from './jeong/audio2Jeong';
+import Audio3Jenog from './jeong/audio3Jeong';
+import Audio4Jeong from './jeong/audio4Jeong';
+
+import Audio1Myeong from './myeong/audio1Myeong';
+import Audio2Myeong from './myeong/audio2Myeong';
+import Audio3Myeong from './myeong/audio3Myeong';
+
+import Audio1Chae from './chae/audio1Chae';
+import Audio2Chae from './chae/audio2Chae';
+import Audio3Chae from './chae/audio3Chae';
+
+import Audio1Bok from './won/audio1Won';
+import Audio2Bok from './won/audio2Won';
+import Audio3Bok from './won/audio3Won';
+import Audio4Bok from './won/audio4Won';
+import Audio5Bok from './won/audio5Won';
+
+import Audio1Kim from './kim/audio1Kim';
+import Audio2Kim from './kim/audio2Kim';
+import Audio3Kim from './kim/audio3Kim';
 
 function App() {
   return (
     <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes> 
         <Route path="/" element={<Main />}/>
-        <Route path="/audio1-1" element={<Audio1Jeong />}/>
-        <Route path="/audio1-2" element={<Audio1Myeong />}/>
-        <Route path="/audio1-3" element={<Audio1Chae />}/>
-        <Route path="/audio1-4" element={<Audio1Bok />}/>
-        <Route path="/audio1-5" element={<Audio1Kim />}/>
-        <Route path="/audio2-1" element={<Audio2Jeong />}/>
-        <Route path="/audio2-2" element={<Audio2Myeong />}/>
-        <Route path="/audio2-3" element={<Audio2Chae />}/>
-        <Route path="/audio2-4" element={<Audio2Bok />}/>
-        <Route path="/audio2-5" element={<Audio2Kim />}/>
-        <Route path="/audio3-1-1" element={<Audio3Jenog1 />}/>
-        <Route path="/audio3-1-2" element={<Audio3Jeong2 />}/>
-        <Route path="/audio3-2" element={<Audio3Myeong />}/>
-        <Route path="/audio3-3" element={<Audio3Chae />}/>
-        <Route path="/audio3-4" element={<Audio3Bok />}/>
-        <Route path="/audio3-5" element={<Audio3Kim />}/>
+        <Route path="/audio1Jeong" element={<Audio1Jeong />}/>
+        <Route path="/audio2Jeong" element={<Audio2Jeong />}/>
+        <Route path="/audio3Jeong" element={<Audio3Jenog />}/>
+        <Route path="/audio4Jeong" element={<Audio4Jeong />}/>
+
+        <Route path="/audio1Myeong" element={<Audio1Myeong />}/>
+        <Route path="/audio2Myeong" element={<Audio2Myeong />}/>
+        <Route path="/audio3Myeong" element={<Audio3Myeong />}/>
+        
+        <Route path="/audio1Chae" element={<Audio1Chae />}/>
+        <Route path="/audio2Chae" element={<Audio2Chae />}/>
+        <Route path="/audio3Chae" element={<Audio3Chae />}/>
+
+        <Route path="/audio1Bok" element={<Audio1Bok />}/>
+        <Route path="/audio2Bok" element={<Audio2Bok />}/>
+        <Route path="/audio3Bok" element={<Audio3Bok />}/>
+        <Route path="/audio4Bok" element={<Audio4Bok />}/>
+        <Route path="/audio5Bok" element={<Audio5Bok />}/>
+
+        <Route path="/audio1Kim" element={<Audio1Kim />}/>
+        <Route path="/audio2Kim" element={<Audio2Kim />}/>
+        <Route path="/audio3Kim" element={<Audio3Kim />}/>
       </Routes>
     </BrowserRouter>
   );

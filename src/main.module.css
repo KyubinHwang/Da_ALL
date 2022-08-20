@@ -39,7 +39,6 @@
     place-content: center;
     width: 100vw;
 }
-
 .titleFont {
     font-size: 25px;
     font-weight: bold;
@@ -55,7 +54,7 @@
 .card {
     background-color: #81765b;
     border-radius: 20px;
-    height: 300px;
+    height: 180px;
     text-align: center;
 }
 .tag{
@@ -66,6 +65,8 @@
     font-family: "MaruBuri-Regular";
     margin-top: 10px;
     margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 .endDiv{
     height: 150px;

@@ -4,7 +4,7 @@ import ReactAudioPlayer from 'react-audio-player';
 import sound from './audio/정다운(멋진나).m4a';
 import logo from './img/DAALL_logo.jpeg';
 
-function Audio3Jeong2() {
+function Audio4Jeong() {
   return (
     <div className={styled.screen}>
         <div>
@@ -39,4 +39,4 @@ function Audio3Jeong2() {
   );
 }
 
-export default Audio3Jeong2;
+export default Audio4Jeong;
