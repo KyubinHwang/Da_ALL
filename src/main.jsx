@@ -187,12 +187,14 @@ function Main(){
                             <br/>
                         </div>
                     </Slider>
-                    <p style={{marginTop:'50px'}}>시니어 작가분들의 시들을 클릭하고<br/>
+                    <p style={{marginTop:'100px'}}>시니어 작가분들의 시들을 클릭하고<br/>
                         작가분들의 음성들을 직접 청취해보세요!!</p>
-                    
-                    <img className={style.team} src={team} alt="img"/> 
+                    <div className={style.boxDiv}>
+                        <img className={style.team} src={team} alt="img"/> 
+                    </div>
+                    <br/>
                     <label style={{marginTop :'100px'}}>'다올'은 <br/>
-                        <label style={{fontWeight :'bold', fontSize :'18px'}}>홍익대학교 '인액터스'</label> 소속 프로젝트입니다.</label>
+                    <label style={{fontWeight :'bold', fontSize :'18px'}}>홍익대학교 '인액터스'</label> 소속 프로젝트입니다.</label>
                     <p>인스타그램을 통해 <br/>
                         다올에 대한 다양한 소식을 확인해주세요!!</p>
                         <button className={style.tag} onClick={linkInsta}>🔥 소식 확인하러 가기 🔥</button>
