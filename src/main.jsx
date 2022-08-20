@@ -2,9 +2,15 @@ import React  from 'react';
 import {  Link  } from 'react-router-dom';
 import { keyframes } from '@emotion/react'
 import styled from '@emotion/styled';
-import logo from './DAALL_logo.jpeg';
+import team from './image/team_Info.png';
+import logo1 from './image/DAALL_logo.jpeg';
+import logo2 from './image/logo.png';
 import style from './main.module.css';
 import { FiChevronsDown } from 'react-icons/fi';
+import {BsGithub, BsInstagram} from 'react-icons/bs';
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const floating = keyframes`
     0 {
@@ -24,12 +30,20 @@ const ScrollDiv = styled.div({
     animation: `${floating} 2s ease infinite`,
 }); 
 
+const linkInsta = () => {
+    window.location.assign("https://www.instagram.com/daall_official__/")
+}
+
+const linkGithub = () => {
+    window.location.assign("https://github.com/KyubinHwang/Da_ALL/")
+}
+
 function Main(){
     return(
         <>
             <div className={style.mainscreen}>
                 <div className={style.header}>
-                    <img className={style.logo} src={logo} alt="img"/>
+                    <img className={style.logo} src={logo1} alt="img"/>
                     <br/>
                     이야기를 담아, 삶을 담아
                 </div>
@@ -40,91 +54,157 @@ function Main(){
                 </ScrollDiv>
             </div>
             <div className={style.contentScreen}>
-                <div>
-                    <p className={style.titleFont}>Team DaALL</p>
-                    <div style={{display : 'flex', justifyContent : 'center', alignItems : 'center'}}>
-                        <img className={style.logo} src={logo} alt="img"/> 
+                <div style={{width: '85vw'}}> 
+                    <p style={{marginTop :'150px', fontWeight : 'bold' , fontSize :'18px', textDecoration : 'underline'}}>대한민국의 노인 인구 중 72%는 <br/>
+                        '여가활동 부족형'</p>
+                    <p style={{marginTop :'50px', textAlign: 'right', fontWeight : 'bold' , fontSize :'18px', textDecoration : 'underline'}}>노년기에 충분한 여가활동을 <br/>
+                        누리고 있지 못한다.</p> 
+                    <p style={{marginTop :'100px'}}>'다올'은 시니어들의 자아실현에 주목합니다.</p>
+                    <p>시니어들의 자아실현을 위한 <br/>
+                        여가 프로그램을 진행합니다.</p>
+                    <div className={style.boxDiv}>
+                        <img className={style.logo} src={logo2} alt="img"/> 
                         <p style={{fontSize: "30px"}}>: 다 가득참</p>
                     </div>
-                    <div className={style.bubbleLeft}>
-                        <p>'다올'은 '다 가득참' 이라는 뜻의 순우리말로, 인생에 대한 이야기가 가득한 시니어들를 대상으로 오디오 시집을 제작하는 프로젝트입니다.</p>
-                    </div>
-                    <div className={style.bubbleLeft}>
-                        <p>다올은 홍익대학교 인액터스 소속 프로젝트로 총 5명의 팀원으로(규빈, 은빈, 단하, 솔, 준서) 구성되어 있습니다.</p>
-                        <p>인스타그램을 통해 다올에 대한 다양한 소식을 확인해주세요!!</p>
-                    </div>
+                    <label style={{marginTop :'100px'}}>'다올'은 <br/>
+                    <label style={{fontWeight :'bold' , fontSize :'18px'}}>인생에 대한 이야기가 가득한</label><br/>
+                        시니어들의 이야기를 시집으로 제작합니다.</label>
+                    <p>'시립용산노인 종합 복지관'과 협업하여<br/>
+                        총 5분의 시니어작가들과 함께합니다!!</p>
                 </div>
-                <div>
-                    <p className={style.titleFont}>PainPoint</p>
-                    <div className={style.bubbleRight}>
-                        <p>대한민국의 노인 인구 중 72%는 '여가활동 부족형'으로 분류되어 노년기에 충분한 여가활동을 누리고 있지 못한 것으로 나타납니다.</p>
-                    </div>
-                </div>
-                <div>
-                    <p className={style.titleFont}>Insight</p>
-                    <div className={style.bubbleLeft}>
-                        <p>다올은 이러한 시니어들의 자아실현에 주목하며, 노인 복지센터 여가프로그램의 많은 수요를 확인하여 시니어들의 자아실현을 위한 여가 프로그램을 개발하고자 하였습니다.</p>
-                    </div>
-                </div>
-                <div>
-                    <p className={style.titleFont}>Content</p>
-                    <div>
-                        <div className={style.goAudio}>
-                            <div style={{width:'40%'}}>
-                                <p>정다운</p>
-                                <div className={style.poemList}>
-                                    <Link to="/audio1-1"><p>지금이 청춘</p></Link>
-                                    <Link to="/audio2-1"><p>어머니</p></Link>
-                                    <Link to="/audio3-1-1"><p>그대</p></Link>
-                                    <Link to="/audio3-1-2"><p>멋진 나</p></Link>
-                                </div>
-                            </div>
-                            <div style={{width:'40%'}}>
-                                <p>원명화</p>
-                                <div className={style.poemList}>
-                                    <Link to="/audio1-2"><p>스물 아홉에 끝난 청춘</p></Link>
-                                    <Link to="/audio2-2"><p>할미꽃 삶</p></Link>
-                                    <Link to="/audio3-2"><p>풋사랑</p></Link>
-                                </div>
-                            </div>
+                <div style={{marginTop:'150px', marginBottom : '100px' , width: '85vw'}}>
+                    <p className={style.titleFont}>시를 직접 들어보세요!!</p>
+                    <Slider dots={true} slidesToShow={1} className={style.slick_list}>
+                        <div className={style.card}>
+                            <p style={{fontWeight : 'bold', color : 'white'}}>#1 정다운</p>
+                            <Link to="/audio1-1">
+                                <button className={style.tag}>
+                                    지금이 청춘
+                                </button>
+                            </Link>
+                            <br/>
+                            <Link to="/audio2-1">
+                                <button className={style.tag}>
+                                    어머니
+                                </button>
+                            </Link>
+                            <br/>
+                            <Link to="/audio3-1-1">
+                                <button className={style.tag}>
+                                    그대
+                                </button>
+                            </Link>
+                            <br/>
+                            <Link to="/audio3-1-1">
+                                <button className={style.tag}>
+                                    멋진 나
+                                </button>
+                            </Link>
+                            <br/>
                         </div>
-                        <div className={style.goAudio}>
-                            <div style={{width:'40%'}}>
-                                <p>채수원</p>
-                                <div className={style.poemList}>
-                                    <Link to="/audio1-3"><p>데이타 복구도 된다는데</p></Link>
-                                    <Link to="/audio2-3"><p>가족</p></Link>
-                                    <Link to="/audio3-3"><p>당신께 쓰고픈 글</p></Link>
-                                </div>
-                           </div>
-                            <div style={{width:'40%'}}>
-                                <p>원복순</p>
-                                <div className={style.poemList}>
-                                    <Link to="/audio1-4"><p>청춘은 도전한다</p></Link>
-                                    <Link to="/audio2-4"><p>새들의 합창</p></Link>
-                                    <Link to="/audio3-4"><p>갈대 노인</p></Link>
-                                </div>
-                            </div>
+                        <div className={style.card}>
+                            <p style={{fontWeight : 'bold', color : 'white'}}>#2 원명화</p>
+                            <Link to="/audio1-2">
+                                <button className={style.tag}>
+                                    스물 아홉에 끝난 청춘
+                                </button>
+                            </Link>
+                            <br/>
+                            <Link to="/audio2-2">
+                                <button className={style.tag}>
+                                    할미꽃 삶
+                                </button>
+                            </Link>
+                            <br/>
+                            <Link to="/audio3-2">
+                                <button className={style.tag}>
+                                    풋사랑
+                                </button>
+                            </Link>
+                            <br/>
                         </div>
-                        <div className={style.goAudio}>
-                            <div style={{width:'40%'}}>
-                                <p>김보경</p>
-                                <div className={style.poemList}>
-                                    <Link to="/audio1-5"><p>청춘</p></Link>
-                                    <Link to="/audio2-5"><p>어머니</p></Link>
-                                    <Link to="/audio3-5"><p>당신</p></Link>
-                                </div>
-                            </div>
+                        <div className={style.card}>
+                            <p style={{fontWeight : 'bold', color : 'white'}}>#3 채수원</p>
+                            <Link to="/audio1-3">
+                                <button className={style.tag}>
+                                    데이타 복구도 된다는데
+                                </button>
+                            </Link>
+                            <br/>
+                            <Link to="/audio2-3">
+                                <button className={style.tag}>
+                                    가족
+                                </button>
+                            </Link>
+                            <br/>
+                            <Link to="/audio3-3">
+                                <button className={style.tag}>
+                                    당신께 쓰고픈 글랑
+                                </button>
+                            </Link>
+                            <br/>
                         </div>
-                    </div>
-                    <div className={style.bubbleRight}>
-                        <p>다올은 '시립용산노인 종합 복지관'과 함께 총 5분의 시니어작가들과 시집을 제작하였습니다.</p>
-                    </div>
-                    <div className={style.bubbleRight}>
-                        <p>상단의 시니어 작가분들의 시 제목들을 클릭하여 작가분들의 음성들을 직접 청취해보세요!!</p>
-                    </div>
+                        <div className={style.card}>
+                            <p style={{fontWeight : 'bold', color : 'white'}}>#4 원복순</p>
+                            <Link to="/audio1-4">
+                                <button className={style.tag}>
+                                    청춘은 도전한다
+                                </button>
+                            </Link>
+                            <br/>
+                            <Link to="/audio2-4">
+                                <button className={style.tag}>
+                                    새들의 합창
+                                </button>
+                            </Link>
+                            <br/>
+                            <Link to="/audio3-4">
+                                <button className={style.tag}>
+                                    갈대 노인
+                                </button>
+                            </Link>
+                            <br/>
+                        </div>
+                        <div className={style.card}>
+                            <p style={{fontWeight : 'bold', color : 'white'}}>#5 김보경</p>
+                            <Link to="/audio1-5">
+                                <button className={style.tag}>
+                                    청춘
+                                </button>
+                            </Link>
+                            <br/>
+                            <Link to="/audio2-5">
+                                <button className={style.tag}>
+                                    어머니
+                                </button>
+                            </Link>
+                            <br/>
+                            <Link to="/audio3-5">
+                                <button className={style.tag}>
+                                    당신
+                                </button>
+                            </Link>
+                            <br/>
+                        </div>
+                    </Slider>
+                    <p style={{marginTop:'50px'}}>시니어 작가분들의 시들을 클릭하고<br/>
+                        작가분들의 음성들을 직접 청취해보세요!!</p>
+                    
+                    <img className={style.team} src={team} alt="img"/> 
+                    <label style={{marginTop :'100px'}}>'다올'은 <br/>
+                        <label style={{fontWeight :'bold', fontSize :'18px'}}>홍익대학교 '인액터스'</label> 소속 프로젝트입니다.</label>
+                    <p>인스타그램을 통해 <br/>
+                        다올에 대한 다양한 소식을 확인해주세요!!</p>
+                        <button className={style.tag} onClick={linkInsta}>🔥 소식 확인하러 가기 🔥</button>
                 </div>
-                <p style={{marginTop: '100px'}}>@daall_official__</p>
+                
+            </div>
+            <div className={style.endDiv}>
+                <div style={{display: 'flex', justifyContent :'center'}}>
+                    <BsGithub onClick={linkGithub} style={{color : 'white', marginRight : '10px', fontSize :'25px'}}/>
+                    <BsInstagram onClick={linkInsta} style={{color : 'white', marginLeft : '10px', fontSize :'25px'}}/>
+                </div>
+                <p style={{color :'white'}}>@daall_official__</p>
             </div>
         </>
     );
