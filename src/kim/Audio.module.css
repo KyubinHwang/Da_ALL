@@ -17,10 +17,13 @@
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 20px;
-    border: 3px dotted #FFE74F;
+    color: white;
+    background-color: #81765b;
+    border-radius: 20px;
     height: 55vh;
     overflow: scroll;
     font-family: "MaruBuri-Regular";
+    box-shadow: 1px 3px 1px #c6c5c5;
 }
 
 .headerBox{

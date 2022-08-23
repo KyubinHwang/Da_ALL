@@ -44,10 +44,11 @@ function Main(){
         0: useScrollFadeIn('up', 2, 0),
         1: useScrollFadeIn('up', 2, 0),
         2: useScrollFadeIn('up', 2, 0),
-        3: useScrollFadeIn('up', 1, 0),
+        3: useScrollFadeIn('up', 2, 0),
         4: useScrollFadeIn('up', 1.5, 0),
         5: useScrollFadeIn('up', 1.5, 0),
         6: useScrollFadeIn('up', 2, 0),
+        7: useScrollFadeIn('up', 1.5, 0),
     };
 
     return(
@@ -79,21 +80,21 @@ function Main(){
                         <p>시니어들의 자아실현을 위한 <br/>
                             여가 프로그램을 진행합니다.</p>
                     </div>
-                    <div {...animatedItem[3]}>
-                        <div className={style.boxDiv}>
+                        <div {...animatedItem[3]} className={style.boxDiv}>
                             <img className={style.logo} src={logo2} alt="img"/> 
                             <p style={{fontSize: "30px"}}>: 다 가득참</p>
                         </div>
+                    <div {...animatedItem[4]}>
                         <label style={{marginTop :'100px'}}>'다올'은 <br/>
-                        <label style={{fontWeight :'bold' , fontSize :'18px'}}>인생에 대한 이야기가 가득한</label><br/>
-                            시니어들의 이야기를 시집으로 제작합니다.</label>
-                        <p>'시립용산노인 종합 복지관'과 협업하여<br/>
-                            총 5분의 시니어작가들과 함께합니다!!</p>
+                            <label style={{fontWeight :'bold' , fontSize :'18px'}}>인생에 대한 이야기가 가득한</label><br/>
+                                시니어들의 이야기를 시집으로 제작합니다.</label>
+                            <p>'시립용산노인 종합 복지관'과 협업하여<br/>
+                                총 5분의 시니어작가들과 함께합니다!!</p>
                     </div>
                 </div>
                 
                 <div style={{marginTop:'100px', marginBottom : '100px' , width: '85vw'}}>
-                    <div {...animatedItem[4]}>
+                    <div {...animatedItem[5]}>
                         <p className={style.titleFont}>시를 직접 들어보세요!!</p>
                         <Slider dots={true} slidesToShow={1} autoplay>
                             <div className={style.card}>
@@ -223,13 +224,13 @@ function Main(){
                         <p style={{marginTop:'50px'}}>시니어 작가분들의 시들을 클릭하고<br/>
                             작가분들의 음성들을 직접 청취해보세요!!</p>
                     </div>
-                    <div {...animatedItem[5]}>
+                    <div {...animatedItem[6]}>
                         <div style={{display : 'flex', justifyContent : 'center', alignItems : 'center'}}>
                             <img className={style.team} src={team} alt="img"/> 
                         </div>
                         <br/>
                     </div>
-                    <div {...animatedItem[6]}>
+                    <div {...animatedItem[7]}>
                         <label style={{marginTop :'50px'}}>'다올'은 <br/>
                             <label style={{fontWeight :'bold', fontSize :'18px'}}>홍익대학교 '인액터스'</label> 소속 프로젝트입니다.
                         </label>
