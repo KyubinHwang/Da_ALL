@@ -1,7 +1,7 @@
 import React from 'react'; 
 import styled from './Audio.module.css'
 import ReactAudioPlayer from 'react-audio-player';
-import sound from './audio/채수원3.m4a';
+import sound from './audio/원명화(반쪽우산).mp3';
 import logo from './img/DAALL_logo.jpeg';
 
 function Audio1Myeong() {
@@ -17,30 +17,23 @@ function Audio1Myeong() {
           />
           <div className={styled.body}>
             <div className={styled.headerBox}>
-              <p style={{fontSize: '25px'}}>스물 아홉에 끝난 청춘</p>
+              <p style={{fontSize: '25px'}}>반쪽 우산</p>
               <p style={{fontSize: '20px', textAlign: 'right'}}>원명화</p>
             </div>
             <div style={{textAlign: 'left'}}>
-                <p>내가 살던 고향은</p>
-                <p>분명의 혜택이 없는</p>
-                <p>조용한 시골이었다</p>
+                <p>반쪽 우산속에서 자란 두 그루의 나무</p>
+                <p>햇 볕이 그리우면 햇 볕을 바라보고</p>
+                <p>그늘이 필요하면 햇 볕을 가리고</p>
+                <p>스스로 성장하는 법을 터득하며 잘 자라주었다</p>
                 <br/>
-                <p>6.25 사변과 함께</p>
-                <p>아버지가 돌아가셨다</p>
-                <p>우리집은 일할 사람이 없는 나는</p>
-                <p>농사꾼이 되었다</p>
-                <p>거머리 무섭다고 논일을 피할 수 없고</p>
-                <p>했볕이 뜨겁다고 밭일을 피할 수 없고</p>
+                <p>어느날 광풍에 큰 나무가 부러졌다</p>
+                <p>앞음을 견디며 작은 나무는 씩씩하게 자랐다</p>
+                <p>어느새 작은 나무는 반쪽 우산을 벗어나서</p>
+                <p>자기만의 큰 우산으로 가족을 보호하고 있었다</p>
                 <br/>
-                <p>사람의 손이 필요한 곳이면</p>
-                <p>어데던지 가야했다 </p>
-                <p>3년이란 세월이 흐른뒤에</p>
-                <p>스므살 어린 나이에 결혼을 했다</p>
-                <br/>
-                <p>결혼 생활도 오래가지 않았다</p>
-                <p>아들 둘만 얻어가지고</p>
-                <p>내 청춘은 그렇게 끝이 났다</p>
-                <p>내 나이 스물 아홉</p>
+                <p>오늘도 어느 교정에서 큰 나무가 되어</p>
+                <p>사춘기 꿈나무를 사랑으로 지키며</p>
+                <p>꿋꿋하게 서있다</p>
             </div>
           </div>
       </div>

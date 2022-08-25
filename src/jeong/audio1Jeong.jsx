@@ -1,7 +1,7 @@
 import React from 'react'; 
 import styled from './Audio.module.css'
 import ReactAudioPlayer from 'react-audio-player';
-import sound from './audio/정다운(어머니).m4a';
+import sound from './audio/정다운(지금이청춘).mp3';
 import logo from './img/DAALL_logo.jpeg';
 
 function Audio1Jeong() {

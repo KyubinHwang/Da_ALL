@@ -1,7 +1,7 @@
 import React from 'react'; 
 import styled from './Audio.module.css'
 import ReactAudioPlayer from 'react-audio-player';
-import sound from './audio/원복순(갈대노인).m4a';
+import sound from './audio/원복순(홀로가족).mp3';
 import logo from './img/DAALL_logo.jpeg';
 
 function Audio5Bok() {

@@ -1,7 +1,7 @@
 import React from 'react'; 
 import styled from './Audio.module.css'
 import ReactAudioPlayer from 'react-audio-player';
-import sound from './audio/채수원3.m4a';
+import sound from './audio/김보경(당신).mp3';
 import logo from './img/DAALL_logo.jpeg';
 
 function Audio3Kim() {
@@ -21,24 +21,25 @@ function Audio3Kim() {
                 <p style={{fontSize: '20px', textAlign: 'right'}}>김보경</p>
               </div>
               <div style={{textAlign: 'left'}}>
-                  <p>집앞 소나무</p>
-                  <p>아무도 거들떠 보지 않는 나무가지</p>
-                  <p>장마비 엄청나게 퍼붓고 있는데</p>
-                  <p>배고파 우는가 많은새의 목소리가 들렸다</p>
+                  <p>그리움도 소용없는 당신</p>
+                  <p>지금은 아무도 없는 세상</p>
+                  <p>가슴 아파 눈물로 기다린다</p>
                   <br/>
-                  <p>새들의 가족인가 보다</p>
-                  <p>자꾸만 신경쓰여 나의 마음을 끌어 당겼다</p>
+                  <p>살아서 붙잡지 못한 당신</p>
+                  <p>인연이 무덤꽃으로 피면</p>
+                  <p>별이 되어 눈뜨는 영혼</p>
+                  <p>나의 당신은 여기가 끝인가</p>
                   <br/>
-                  <p>비는 쉬지 않고 퍼부어 대고</p>
-                  <p>유리창에 붙은 빗방울 보며</p>
-                  <p>빗물은 감감없이 상처를 만들고</p>
+                  <p>죽어서도 잊지 못할 사랑의 무덤꽃</p>
+                  <p>바람 불어 떠도는 마음</p>
+                  <p>나의 그리움 지금이 끝인가</p>
                   <br/>
-                  <p>물의 굴절에 휘어지는 시선은</p>
-                  <p>어긋난 각도로 흘러가는 인생같다</p>
-                  <br/>
-                  <p>가족도 각기 다른길 가듯</p>
-                  <p>장마통에 떠 내려간 그리움</p>
-                  <p>가슴은 유성처럼 짧게 적시네</p>
+                  <p>말 못할 슬픔을 짊어지고</p>
+                  <p>그리움 헤집는 당신은 누구</p>
+                  <p>떠난 사람 미워 하지 말자</p>
+                  <p>잘못을 용서하고</p>
+                  <p>상처를 아물게 하는 건</p>
+                  <p>세월이었다</p>
               </div>
             </div>
         </div>

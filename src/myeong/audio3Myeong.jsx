@@ -1,7 +1,7 @@
 import React from 'react'; 
 import styled from './Audio.module.css'
 import ReactAudioPlayer from 'react-audio-player';
-import sound from './audio/채수원3.m4a';
+import sound from './audio/원명화(풋사랑).mp3';
 import logo from './img/DAALL_logo.jpeg';
 
 function Audio3Myeong() {
@@ -29,13 +29,13 @@ function Audio3Myeong() {
                   <p>설레임과 떨림으로 대답을 할 수 없었다</p>
                   <br/>
                   <p>그는 그곳에 자주 왔다</p>
-                  <p>그 가을 때면 모든 시선이 나에게 쏠렸다</p>
+                  <p>그가 올 때면 모든 시선이 나에게 쏠렸다</p>
                   <br/>
                   <p>그는 많은 말을 걸어와도</p>
                   <p>대답 대신 마음으로 대신 한다</p>
                   <p>당신으로 해서 내 마음은 항상 셀렌다고</p>
                   <p>그는 적극적으로 다가와서 짖굿게 말을 걸어왔다</p>
-                  <p>대답 대신 주름은 미소로 대답한다</p>
+                  <p>대답 대신 수줍은 미소로 대답한다</p>
                   <p>나를 바라보며 같이 웃어주던 사람</p>
                   <br/>
                   <p>그렇게 사라이 여무러 갈 무렵</p>
