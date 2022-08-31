@@ -1,7 +1,7 @@
 import React from 'react'; 
 import styled from './Audio.module.css'
 import ReactAudioPlayer from 'react-audio-player';
-import sound from './audio/채수원3.m4a';
+import sound from './audio/채수원(데이타복구도된다는데).m4a';
 import logo from './img/DAALL_logo.jpeg';
 
 function Audio1Chae() {
