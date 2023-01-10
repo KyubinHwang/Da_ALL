@@ -21,7 +21,7 @@ function Audio5Bok() {
                 <p style={{fontSize: '20px', textAlign: 'right'}}>원복순</p>
               </div>
               <div style={{textAlign: 'left'}}>
-                  <p>예쁜 지붕위에 박이 세 통</p>
+                  <p>예쁜 지붕 위에 박이 세 통</p>
                   <p>그 박이 여물기도 전에</p>
                   <p>큰 줄기 하나가 끊었다</p>
                   <p>끊어질 듯한 줄기 하나가 고개를 들었다</p>
@@ -33,7 +33,7 @@ function Audio5Bok() {
                   <br/>
                   <p>나는 부자다 손자 손녀가 여덟</p>
                   <p>하지만 나는 가족이 없다</p>
-                  <p>아들레가 오면 가족이고 가면 남이다</p>
+                  <p>아들 오면 가족이고 가면 남이다</p>
                   <p>나는 홀로 가족이다</p>
               </div>
             </div>
