@@ -21,9 +21,9 @@ function Audio1Chae() {
                 <p style={{fontSize: '20px', textAlign: 'right'}}>채수원</p>
               </div>
               <div style={{textAlign: 'left'}}>
-                <p>부끄러워말고</p>
+                <p>부끄러워 말고</p>
                 <p>솔직해야 했는데</p>
-                <p>톡 쏘는 그말들이</p>
+                <p>톡 쏘는 그 말들이</p>
                 <p>가시는 아니었을 텐데</p>
                 <p>그냥 믿고 말았어</p>
                 <br/>

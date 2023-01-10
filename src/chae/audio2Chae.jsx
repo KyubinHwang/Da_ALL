@@ -21,9 +21,9 @@ function Audio2Chae() {
                 <p style={{fontSize: '20px', textAlign: 'right'}}>채수원</p>
               </div>
               <div style={{textAlign: 'left'}}>
-                  <p>눈내린 내리막</p>
+                  <p>눈 내린 내리막</p>
                   <p>아빠 엄마 아기</p>
-                  <p>손 잡고 간다</p>
+                  <p>손잡고 간다</p>
                   <br/>
                   <p>조심 조심</p>
                   <br/>
